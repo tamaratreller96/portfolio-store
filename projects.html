@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>All Projects</h1>
+  <nav>
+    <a href="index.html">← Home</a>
+  </nav>
+  <input type="text" placeholder="Search projects..." class="search" onkeyup="searchProjects()">
+</header>
+
+<section class="products">
+
+  <div class="card">git 
+    <img src="images/laptop.jpeg" alt="Laptop">
+    <h3>Laptop</h3>
+    <p>Electronics</p>
+    <a href="laptop.html">View Project</a>
+    <button onclick="saveItem('Laptop')">Save</button>
+  </div>
+
+  <div class="card">
+    <img src="images/phone.jpeg" alt="Smartphone">
+    <h3>Smartphone</h3>
+    <p>Electronics</p>
+    <a href="phone.html">View Project</a>
+    <button onclick="saveItem('Smartphone')">Save</button>
+  </div>
+
+  <div class="card">
+    <img src="images/shoes.jpeg" alt="Sneakers">
+    <h3>Sneakers</h3>
+    <p>Fashion</p>
+    <a href="shoes.html">View Project</a>
+    <button onclick="saveItem('Sneakers')">Save</button>
+  </div>
+
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
